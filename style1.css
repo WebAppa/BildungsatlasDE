@@ -16,12 +16,10 @@ body {
     padding: 10px;
 }
 
-/* .BIGBOX {
+.BIGBOX {
 
-    display: grid;
-
-    grid-template-columns: 50% 50%;
-} */
+    max-width: 70%;
+} 
 
 p {
     padding: 10px;
