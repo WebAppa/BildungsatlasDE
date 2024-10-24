@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    transition: smooth;
+}
+
+body {
+    
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    background-image: url("bandg.png");
+}
+
+.hintergrund {
+
+    background-color: rgba(23, 90, 23, 0.87);
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    max-width: 80%;
+}
+
+.lea {
+    padding-bottom: 1em;
+    border-bottom: solid rgba(255, 255, 255, 0.514) 1px;
+    padding-top: 0.5em;
+    border-bottom-right-radius: 10px;
+    font-size: 1.15em;
+
+}
+
+h1 {
+    text-shadow: rgba(167, 255, 150, 0.219) 1px 0px;
+}
+
+
+/* .nowrap {
+    max-width: 100%;
+    padding: 10px;
+} */
+
+@media screen and (min-width: 992px) {
+
+    p {
+        padding: 10px;
+        max-width: 60%;
+    }
+
+    /* .nowrap {
+        max-width: 80%;
+        padding: 10px;
+    } */
+    
+
+
+}
